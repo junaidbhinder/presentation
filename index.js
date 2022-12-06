@@ -1,5 +1,6 @@
 require("dotenv").config();
-const db = require("./config/db");
+// const db = require("./config/db");
+const dbSql = require("./config/mySql")
 const express = require('express');
 const users = require('./router/user.routes')
 const stock = require('./router/csv.router')
